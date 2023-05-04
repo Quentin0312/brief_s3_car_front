@@ -4,11 +4,18 @@ import type { Component } from 'solid-js';
 // import styles from './App.module.css';
 
 import Header from './components/Header';
-
+import Error from './components/Error';
+import Formulaire from './components/Formulaire';
 
 const App: Component = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <Error message="Une erreur s'est produite" isOpen={true} />
+      <Formulaire />
+      
+
+    </>
     // <div class={styles.App}>
     //   <header class={styles.header}>
     //     <img src={logo} class={styles.logo} alt="logo" />

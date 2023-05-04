@@ -5,7 +5,7 @@ import '../assets/css/header.css';
 
 const Header: Component = () => {
     return (
-        <header id = "header">
+        <header id = "header" class="text-3xl font-bold">
             <h1>Car price prediction</h1>
         </header>
     );
